@@ -69,9 +69,9 @@ void Serie::calculaDuracion() {
     duracion = duracionTotal; // Asignar la duración total de la serie
 }
 
-string Serie::str() {
-    string str = Video::str() + " " + to_string(2) + "\n";
-    for (int index = 0; index < cantidad; index++) {
+string Serie::str(){
+    string str = Video::str() + " " + to_string(cantidad) + "\n";
+    for (int index = 0; index < cantidad; index++){
         str += episodios[index].str() + "\n";
     }
     return str;

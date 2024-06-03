@@ -2,7 +2,7 @@
 - Nombre: Cristóbal Soto Arévalo
 - Matricula: A00840739
 - Carrera: ITD
-- Fecha: 02/06/2024
+- Fecha: 22/05/2024
 */
 
 #include "Episodio.h"
@@ -44,6 +44,6 @@ void Episodio::setCalificacion(int _calificacion) {
 }
 
 
-string Episodio::str(){
+string Episodio::str() {
     return titulo + " " + to_string(temporada) + " " + to_string(calificacion);
 }

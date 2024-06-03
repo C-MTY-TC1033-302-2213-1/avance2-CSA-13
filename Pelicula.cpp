@@ -19,6 +19,7 @@ int Pelicula::getOscars(){
     return oscars;
 }
 
-string Pelicula::str(){
+string Pelicula::str() {
+    // se tieneaccesso a los atributos de la clase padre dado que son protected
     return iD + " " + titulo + " " + to_string(duracion) + " " + genero + " " + to_string(calificacion) + " " + to_string(oscars);
 }

@@ -66,7 +66,6 @@ void Video::setCalificacion(double _calificacion){
 }
 
 //Otros Métodos
-string Video::str(){
-    return iD + ' ' + titulo + ' ' + to_string(duracion) + ' ' + genero + 
-    ' ' + to_string(calificacion); 
+string Video::str() {
+    return iD + " " + titulo + " " + to_string(duracion) + " " + genero + " " + to_string(calificacion);
 }
